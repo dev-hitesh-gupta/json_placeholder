@@ -1,117 +1,53 @@
 {
-    "posts": [
-        {
-            "id": 1,
-            "title": "Post 1"
-        },
-        {
-            "id": 2,
-            "title": "Post 2"
-        },
-        {
-            "id": 3,
-            "title": "Post 3"
-        }
-    ],
     "holdings": [
         {
-            "id": "0x1aBcDeF12345",
-            "name": "CryptoKitty #123",
-            "description": "A cute CryptoKitty with blue fur.",
-            "owner": "0xYourAddress"
+            "name": "David",
+            "keys": 6,
+            "eth_value": 3.8
         },
         {
-            "id": "0x2BcDeF67890",
-            "name": "Artwork: The Starry Night",
-            "description": "A digital representation of Van Gogh's masterpiece.",
-            "owner": "0xAnotherAddress"
+            "name": "Eva",
+            "keys": 2,
+            "eth_value": 1.7
+        },
+        {
+            "name": "Frank",
+            "keys": 5,
+            "eth_value": 2.9
         }
     ],
     "trades": [
         {
-            "tradeID": "12345",
-            "timestamp": "2023-11-06T10:15:00Z",
-            "asset": "Bitcoin (BTC)",
-            "quantity": 2.5,
-            "price": 60000,
-            "buyer": "0xBuyerAddress",
-            "seller": "0xSellerAddress"
+            "name": "Grace",
+            "keys": 4,
+            "eth_value": 2.3
         },
         {
-            "tradeID": "67890",
-            "timestamp": "2023-11-06T11:30:00Z",
-            "asset": "Ethereum (ETH)",
-            "quantity": 10,
-            "price": 4000,
-            "buyer": "0xAnotherBuyerAddress",
-            "seller": "0xAnotherSellerAddress"
+            "name": "Henry",
+            "keys": 8,
+            "eth_value": 4.5
+        },
+        {
+            "name": "Isabel",
+            "keys": 3,
+            "eth_value": 1.9
         }
     ],
     "owners": [
         {
-            "id": 1000000001,
-            "name": "Product A",
-            "price": 10.99
+            "name": "Alice",
+            "keys": 3,
+            "eth_value": 2.5
         },
         {
-            "id": 1000000002,
-            "name": "Product B",
-            "price": 20.49
+            "name": "Bob",
+            "keys": 7,
+            "eth_value": 4
         },
         {
-            "id": 1000000003,
-            "name": "Product C",
-            "price": 15.75
-        },
-        {
-            "id": 1000000004,
-            "name": "Product D",
-            "price": 8.99
-        },
-        {
-            "id": 1000000005,
-            "name": "Product E",
-            "price": 5.25
-        },
-        {
-            "id": 1000000006,
-            "name": "Product F",
-            "price": 12.95
-        },
-        {
-            "id": 1000000007,
-            "name": "Product G",
-            "price": 7.5
-        },
-        {
-            "id": 1000000008,
-            "name": "Product H",
-            "price": 18.75
-        },
-        {
-            "id": 1000000009,
-            "name": "Product I",
-            "price": 9.99
-        },
-        {
-            "id": 1000000010,
-            "name": "Product J",
-            "price": 14.5
+            "name": "Charlie",
+            "keys": 4,
+            "eth_value": 3.2
         }
-    ],
-    "comments": [
-        {
-            "id": 1,
-            "body": "some comment",
-            "postId": 1
-        },
-        {
-            "id": 2,
-            "body": "some comment",
-            "postId": 1
-        }
-    ],
-    "profile": {
-        "name": "typicode"
-    }
+    ]
 }
